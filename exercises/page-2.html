@@ -7,28 +7,47 @@
     <meta name="description" content="A basic web page containing some text from Wikipedia about the 1983-recorded song Purple Rain by Prince">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
-        header {
-    @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        
+body {
+    @apply bg-[#F9E8EC] text-[#4A0E19];
 }
 
-section {   
-    @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
-}
-section h2 {   
-    @apply mt-8;
+header h1 {
+    @apply text-[#6B2737];
 }
 
-section h3 {   
-    @apply mt-6;
+h2 {
+    @apply text-[#9F4660];
 }
 
-section p {   
-    @apply mb-4;
-}
 
-    </style>
 
-    /* Mehak Imran 81262 */
+
+
+    header {
+        @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+    }
+
+    header h1 {
+        @apply text-6xl md:text-8xl font-serif text-center tracking-widest ;
+    }
+
+    section {
+        @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+    }
+
+    section h2 {
+        @apply mt-8 text-3xl md:text-4xl font-serif tracking-wide uppercase font-bold ;
+    }
+
+    section p {
+        @apply mb-4 text-base md:text-lg leading-9 ;
+    }
+
+
+</style>
+<!---Mehak Imran 81262--->
+
 
 </head>
 
@@ -57,7 +76,7 @@ section p {
 <p><b>Source</b>: <i>Wikipedia</i>.</p>
 
 
-<p><a href="../index.html">Back to Home page</a></p>
+<p><b><a href="../index.html">Back to Home page</a></b></p>
     </section>
 </main>
 
